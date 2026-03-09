@@ -96,6 +96,27 @@ section#redes-sociais img:hover {
 
 }
 
+body{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#telefone{
+    position: relative;
+    width: 300px;
+    height: 600px;
+    margin: auto;
+}
+
+#tela{
+    position: absolute;
+    top: 80px;
+    left: 22px;
+    width: 255px;
+    height: 455px;
+    border: none;
+}
 
 
 
