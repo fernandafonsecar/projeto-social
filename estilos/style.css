@@ -69,3 +69,62 @@ section#redes-sociais img:hover {
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.623);
     transition: transform 0.5s, border 1s;
 }
+
+
+
+
+
+/* atualização do projeto pelo chat*/
+
+@media (max-width: 768px){
+
+    #redes-sociais{
+        position: fixed;
+        bottom: 10px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    #redes-sociais a{
+        display: inline-block;
+        margin: 5px;
+    }
+
+    #redes-sociais img{
+        width: 40px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+#redes-sociais{
+    position: fixed;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#redes-sociais a{
+    display: block;
+    margin: 10px 0;
+}
+
+#redes-sociais img{
+    width: 50px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 6px rgba(0,0,0,0.4);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+#redes-sociais img:hover{
+    transform: scale(1.2);
+    box-shadow: 3px 3px 10px rgba(0,0,0,0.6);
+}
